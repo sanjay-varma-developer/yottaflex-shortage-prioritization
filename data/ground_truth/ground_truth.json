@@ -1,0 +1,82 @@
+[
+  {
+    "record_id":"PO-2026-000106",
+    "entity":"purchase_orders",
+    "issue_type":"inbound_counted_twice",
+    "description":"PO PO-2026-000106 duplicated \u2014 risk of double-counting inbound qty 2996",
+    "affected_field":"po_id",
+    "original_value":"PO-2026-000106",
+    "injected_value":"PO-2026-000106",
+    "severity":"HIGH"
+  },
+  {
+    "record_id":"PO-2026-000220",
+    "entity":"purchase_orders",
+    "issue_type":"inbound_counted_twice",
+    "description":"PO PO-2026-000220 duplicated \u2014 risk of double-counting inbound qty 3887",
+    "affected_field":"po_id",
+    "original_value":"PO-2026-000220",
+    "injected_value":"PO-2026-000220",
+    "severity":"HIGH"
+  },
+  {
+    "record_id":"SKU-000006",
+    "entity":"skus",
+    "issue_type":"substitute_not_approved",
+    "description":"SKU SKU-000006 substitute SKU-000043 marked not approved",
+    "affected_field":"substitute_approved",
+    "original_value":"True",
+    "injected_value":"False",
+    "severity":"MEDIUM"
+  },
+  {
+    "record_id":"PO-2026-000322",
+    "entity":"purchase_orders",
+    "issue_type":"supplier_capacity_exceeded",
+    "description":"PO PO-2026-000322 qty 5877 exceeds supplier max capacity 2464",
+    "affected_field":"quantity",
+    "original_value":"2189",
+    "injected_value":"5877",
+    "severity":"HIGH"
+  },
+  {
+    "record_id":"PO-2026-000173",
+    "entity":"purchase_orders",
+    "issue_type":"supplier_capacity_exceeded",
+    "description":"PO PO-2026-000173 qty 11932 exceeds supplier max capacity 4170",
+    "affected_field":"quantity",
+    "original_value":"754",
+    "injected_value":"11932",
+    "severity":"HIGH"
+  },
+  {
+    "record_id":"PO-2026-000262",
+    "entity":"purchase_orders",
+    "issue_type":"supplier_capacity_exceeded",
+    "description":"PO PO-2026-000262 qty 4993 exceeds supplier max capacity 3041",
+    "affected_field":"quantity",
+    "original_value":"2309",
+    "injected_value":"4993",
+    "severity":"HIGH"
+  },
+  {
+    "record_id":"LT-000114",
+    "entity":"lead_times",
+    "issue_type":"shortage_without_lead_time",
+    "description":"Lead-time record LT-000114 removed \u2014 supplier SUP-000016 \u2192 location LOC-003 has no transit data",
+    "affected_field":"lead_time_id",
+    "original_value":"LT-000114",
+    "injected_value":"REMOVED",
+    "severity":"CRITICAL"
+  },
+  {
+    "record_id":"SC-000189",
+    "entity":"supplier_capacities",
+    "issue_type":"uom_mismatch",
+    "description":"Supplier capacity SC-000189 UOM PALLET \u2260 SKU SKU-000070 UOM LT",
+    "affected_field":"uom",
+    "original_value":"LT",
+    "injected_value":"PALLET",
+    "severity":"MEDIUM"
+  }
+]

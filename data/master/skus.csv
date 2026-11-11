@@ -1,0 +1,151 @@
+sku_id,name,category,subcategory,uom,weight_kg,unit_cost,substitute_sku_id,substitute_approved,status,created_at
+SKU-000001,Components Part 1,Components,Gaskets,KG,46.12,58.27,,,ON_HOLD,2025-01-17
+SKU-000002,Food & Beverage Part 2,Food & Beverage,Additives,KG,4.94,426.77,SKU-000070,True,ACTIVE,2025-06-08
+SKU-000003,Industrial Part 3,Industrial,Motors,PALLET,46.38,437.7,,,ACTIVE,2025-06-18
+SKU-000004,Consumer Goods Part 4,Consumer Goods,Tools,KG,17.02,488.58,,,ACTIVE,2025-08-26
+SKU-000005,Food & Beverage Part 5,Food & Beverage,Grains,PALLET,12.64,133.08,,,ACTIVE,2025-04-15
+SKU-000006,Automotive Part 6,Automotive,Interior,PALLET,30.32,254.18,SKU-000043,False,ACTIVE,2025-04-21
+SKU-000007,Consumer Goods Part 7,Consumer Goods,Household,BOX,37.95,166.71,,,ON_HOLD,2025-12-03
+SKU-000008,Electronics Part 8,Electronics,Displays,KG,42.3,67.32,SKU-000102,True,DISCONTINUED,2025-04-01
+SKU-000009,Industrial Part 9,Industrial,Pumps,BOX,48.84,337.99,SKU-000100,True,ACTIVE,2025-12-23
+SKU-000010,Automotive Part 10,Automotive,Electrical,EA,37.76,442.84,SKU-000029,True,ACTIVE,2025-05-27
+SKU-000011,Automotive Part 11,Automotive,Engine,KG,36.44,449.7,SKU-000115,True,ACTIVE,2025-05-23
+SKU-000012,Chemicals Part 12,Chemicals,Polymers,PALLET,12.98,495.03,,,ACTIVE,2025-09-04
+SKU-000013,Chemicals Part 13,Chemicals,Solvents,LT,44.96,194.33,SKU-000074,True,ACTIVE,2025-07-16
+SKU-000014,Industrial Part 14,Industrial,Bearings,PALLET,3.85,428.26,,,ON_HOLD,2025-09-02
+SKU-000015,Electronics Part 15,Electronics,Displays,KG,22.55,323.87,,,ACTIVE,2025-08-27
+SKU-000016,Pharmaceuticals Part 16,Pharmaceuticals,Prescription,EA,44.41,412.35,,,ACTIVE,2025-11-29
+SKU-000017,Automotive Part 17,Automotive,Electrical,LT,48.95,82.98,,,ACTIVE,2025-11-07
+SKU-000018,Textiles Part 18,Textiles,Knitted,LT,23.37,410.48,,,DISCONTINUED,2025-03-18
+SKU-000019,Chemicals Part 19,Chemicals,Polymers,EA,28.02,467.92,,,ACTIVE,2025-01-09
+SKU-000020,Food & Beverage Part 20,Food & Beverage,Grains,KG,23.59,149.58,SKU-000028,True,ACTIVE,2025-07-04
+SKU-000021,Consumer Goods Part 21,Consumer Goods,Personal Care,BOX,2.5,259.1,,,ACTIVE,2025-05-03
+SKU-000022,Pharmaceuticals Part 22,Pharmaceuticals,OTC,BOX,29.23,313.28,SKU-000126,True,ACTIVE,2025-08-19
+SKU-000023,Consumer Goods Part 23,Consumer Goods,Household,LT,8.49,391.96,,,ACTIVE,2025-03-23
+SKU-000024,Pharmaceuticals Part 24,Pharmaceuticals,Prescription,KG,38.97,390.26,,,ACTIVE,2025-10-16
+SKU-000025,Food & Beverage Part 25,Food & Beverage,Additives,LT,3.08,290.08,,,ACTIVE,2025-10-11
+SKU-000026,Consumer Goods Part 26,Consumer Goods,Personal Care,EA,12.96,499.03,,,ACTIVE,2025-07-15
+SKU-000027,Packaging Part 27,Packaging,Films,LT,30.12,456.48,,,ACTIVE,2025-08-24
+SKU-000028,Automotive Part 28,Automotive,Chassis,KG,46.62,394.47,,,ACTIVE,2025-03-08
+SKU-000029,Packaging Part 29,Packaging,Labels,KG,38.35,92.35,,,ACTIVE,2025-03-13
+SKU-000030,Automotive Part 30,Automotive,Engine,LT,42.66,409.79,SKU-000120,True,ACTIVE,2025-09-12
+SKU-000031,Components Part 31,Components,Seals,LT,39.34,245.42,,,ACTIVE,2025-09-29
+SKU-000032,Industrial Part 32,Industrial,Valves,BOX,39.47,231.71,SKU-000081,True,DISCONTINUED,2025-05-24
+SKU-000033,Textiles Part 33,Textiles,Nonwoven,KG,11.79,279.74,,,ACTIVE,2025-05-16
+SKU-000034,Packaging Part 34,Packaging,Films,LT,27.79,15.42,,,ACTIVE,2025-03-13
+SKU-000035,Chemicals Part 35,Chemicals,Acids,LT,47.98,164.89,,,ACTIVE,2025-04-25
+SKU-000036,Components Part 36,Components,Gaskets,LT,44.16,94.75,,,ACTIVE,2025-08-01
+SKU-000037,Industrial Part 37,Industrial,Bearings,EA,38.6,240.13,SKU-000033,True,ACTIVE,2025-01-05
+SKU-000038,Industrial Part 38,Industrial,Pumps,BOX,22.74,494.33,SKU-000121,True,ACTIVE,2025-09-23
+SKU-000039,Components Part 39,Components,Gaskets,EA,35.86,345.28,,,ACTIVE,2025-03-25
+SKU-000040,Electronics Part 40,Electronics,Displays,KG,13.96,483.78,SKU-000035,True,ACTIVE,2025-08-10
+SKU-000041,Electronics Part 41,Electronics,Boards,PALLET,30.03,487.57,SKU-000029,True,ACTIVE,2025-10-16
+SKU-000042,Packaging Part 42,Packaging,Cartons,KG,35.25,113.74,,,ACTIVE,2025-12-03
+SKU-000043,Automotive Part 43,Automotive,Electrical,BOX,40.79,456.94,,,ACTIVE,2025-02-13
+SKU-000044,Textiles Part 44,Textiles,Yarn,PALLET,20.53,312.56,,,ACTIVE,2025-10-25
+SKU-000045,Packaging Part 45,Packaging,Films,BOX,37.57,308.29,,,ACTIVE,2025-01-28
+SKU-000046,Packaging Part 46,Packaging,Films,PALLET,14.29,463.69,SKU-000132,True,ACTIVE,2025-01-10
+SKU-000047,Industrial Part 47,Industrial,Motors,LT,31.98,284.52,SKU-000088,True,ACTIVE,2025-05-20
+SKU-000048,Textiles Part 48,Textiles,Woven,LT,17.63,64.68,,,DISCONTINUED,2025-09-15
+SKU-000049,Chemicals Part 49,Chemicals,Solvents,EA,13.69,33.86,SKU-000095,True,ACTIVE,2025-01-25
+SKU-000050,Packaging Part 50,Packaging,Bottles,KG,30.68,118.18,,,DISCONTINUED,2025-08-12
+SKU-000051,Textiles Part 51,Textiles,Woven,EA,20.47,190.36,,,ACTIVE,2025-06-05
+SKU-000052,Chemicals Part 52,Chemicals,Acids,BOX,18.45,489.74,SKU-000014,True,ACTIVE,2025-04-30
+SKU-000053,Consumer Goods Part 53,Consumer Goods,Household,BOX,43.67,328.42,,,ACTIVE,2025-05-24
+SKU-000054,Chemicals Part 54,Chemicals,Acids,BOX,24.07,439.73,,,ON_HOLD,2025-04-14
+SKU-000055,Pharmaceuticals Part 55,Pharmaceuticals,OTC,KG,41.92,273.69,,,ACTIVE,2025-11-23
+SKU-000056,Chemicals Part 56,Chemicals,Catalysts,BOX,44.32,14.17,,,ACTIVE,2025-05-14
+SKU-000057,Industrial Part 57,Industrial,Valves,KG,43.64,488.53,SKU-000014,True,ACTIVE,2025-07-06
+SKU-000058,Industrial Part 58,Industrial,Bearings,KG,24.37,390.69,,,ACTIVE,2025-11-11
+SKU-000059,Food & Beverage Part 59,Food & Beverage,Additives,KG,20.8,407.1,,,ACTIVE,2025-09-01
+SKU-000060,Chemicals Part 60,Chemicals,Catalysts,BOX,4.4,55.16,SKU-000074,False,ACTIVE,2025-04-17
+SKU-000061,Electronics Part 61,Electronics,Displays,KG,11.91,87.04,,,ACTIVE,2025-11-18
+SKU-000062,Textiles Part 62,Textiles,Woven,LT,9.23,481.31,,,ACTIVE,2025-06-10
+SKU-000063,Industrial Part 63,Industrial,Motors,LT,30.75,107.31,SKU-000083,True,ACTIVE,2025-07-01
+SKU-000064,Packaging Part 64,Packaging,Cartons,EA,30.72,268.13,,,ACTIVE,2025-05-23
+SKU-000065,Consumer Goods Part 65,Consumer Goods,Personal Care,KG,36.08,465.9,,,ACTIVE,2025-06-15
+SKU-000066,Pharmaceuticals Part 66,Pharmaceuticals,OTC,PALLET,18.69,402.81,SKU-000111,True,ACTIVE,2025-04-19
+SKU-000067,Packaging Part 67,Packaging,Labels,EA,15.84,415.19,,,ACTIVE,2025-01-03
+SKU-000068,Textiles Part 68,Textiles,Knitted,LT,10.54,403.56,,,ACTIVE,2025-05-15
+SKU-000069,Electronics Part 69,Electronics,Displays,EA,1.2,68.04,,,ACTIVE,2025-04-18
+SKU-000070,Food & Beverage Part 70,Food & Beverage,Additives,LT,22.94,310.95,,,ACTIVE,2025-06-07
+SKU-000071,Packaging Part 71,Packaging,Cartons,BOX,37.9,273.98,,,ACTIVE,2025-01-11
+SKU-000072,Textiles Part 72,Textiles,Knitted,KG,48.55,152.73,,,ACTIVE,2025-12-07
+SKU-000073,Electronics Part 73,Electronics,Boards,EA,39.08,62.12,,,ACTIVE,2025-03-26
+SKU-000074,Packaging Part 74,Packaging,Cartons,LT,37.83,151.11,SKU-000069,True,ACTIVE,2025-03-21
+SKU-000075,Pharmaceuticals Part 75,Pharmaceuticals,OTC,EA,25.55,60.5,,,ACTIVE,2025-01-08
+SKU-000076,Components Part 76,Components,Gaskets,PALLET,45.06,331.65,,,ACTIVE,2025-11-09
+SKU-000077,Industrial Part 77,Industrial,Bearings,PALLET,46.57,468.59,,,ACTIVE,2025-08-06
+SKU-000078,Components Part 78,Components,Gaskets,LT,44.26,438.08,,,ACTIVE,2025-05-17
+SKU-000079,Chemicals Part 79,Chemicals,Solvents,EA,25.18,172.87,SKU-000008,False,ACTIVE,2025-10-27
+SKU-000080,Industrial Part 80,Industrial,Pumps,LT,6.6,280.48,,,ON_HOLD,2025-10-16
+SKU-000081,Pharmaceuticals Part 81,Pharmaceuticals,OTC,BOX,41.85,430.95,SKU-000063,True,ACTIVE,2025-10-14
+SKU-000082,Food & Beverage Part 82,Food & Beverage,Grains,EA,25.17,122.4,SKU-000025,True,ACTIVE,2025-11-15
+SKU-000083,Pharmaceuticals Part 83,Pharmaceuticals,Excipients,BOX,41.65,471.73,SKU-000089,True,ACTIVE,2025-07-12
+SKU-000084,Food & Beverage Part 84,Food & Beverage,Dairy,KG,48.22,485.01,,,ACTIVE,2025-06-15
+SKU-000085,Food & Beverage Part 85,Food & Beverage,Additives,LT,13.01,138.05,SKU-000042,True,DISCONTINUED,2025-07-03
+SKU-000086,Textiles Part 86,Textiles,Nonwoven,EA,34.19,301.53,SKU-000003,True,ACTIVE,2025-04-14
+SKU-000087,Automotive Part 87,Automotive,Engine,EA,2.84,180.8,,,ACTIVE,2025-11-30
+SKU-000088,Consumer Goods Part 88,Consumer Goods,Household,KG,15.24,174.49,SKU-000082,True,ACTIVE,2025-07-26
+SKU-000089,Electronics Part 89,Electronics,Boards,LT,30.65,102.43,SKU-000058,True,ACTIVE,2025-06-12
+SKU-000090,Textiles Part 90,Textiles,Woven,BOX,20.16,475.96,SKU-000123,True,ACTIVE,2025-05-03
+SKU-000091,Packaging Part 91,Packaging,Labels,KG,45.08,452.85,,,ACTIVE,2025-10-08
+SKU-000092,Automotive Part 92,Automotive,Electrical,EA,40.55,259.41,SKU-000123,True,ACTIVE,2025-01-23
+SKU-000093,Components Part 93,Components,Springs,BOX,30.65,456.14,,,ACTIVE,2025-11-12
+SKU-000094,Packaging Part 94,Packaging,Labels,BOX,6.87,197.28,,,ACTIVE,2025-02-26
+SKU-000095,Chemicals Part 95,Chemicals,Polymers,LT,41.3,253.94,,,DISCONTINUED,2025-04-19
+SKU-000096,Textiles Part 96,Textiles,Woven,LT,20.37,380.2,,,ACTIVE,2025-03-26
+SKU-000097,Components Part 97,Components,Seals,BOX,9.05,371.16,,,ACTIVE,2025-11-15
+SKU-000098,Chemicals Part 98,Chemicals,Acids,EA,49.28,295.79,,,ACTIVE,2025-01-06
+SKU-000099,Electronics Part 99,Electronics,Displays,PALLET,42.19,175.17,SKU-000071,True,ON_HOLD,2025-11-28
+SKU-000100,Food & Beverage Part 100,Food & Beverage,Beverages,KG,8.78,462.28,SKU-000033,True,ACTIVE,2025-02-06
+SKU-000101,Automotive Part 101,Automotive,Electrical,EA,19.23,257.76,SKU-000049,True,ACTIVE,2025-03-26
+SKU-000102,Food & Beverage Part 102,Food & Beverage,Dairy,KG,14.25,161.12,SKU-000004,True,ACTIVE,2025-12-15
+SKU-000103,Automotive Part 103,Automotive,Electrical,BOX,30.9,200.07,,,ACTIVE,2025-11-17
+SKU-000104,Industrial Part 104,Industrial,Motors,PALLET,43.05,326.0,SKU-000034,True,ACTIVE,2025-02-18
+SKU-000105,Packaging Part 105,Packaging,Bottles,BOX,22.04,54.67,,,ON_HOLD,2025-07-22
+SKU-000106,Packaging Part 106,Packaging,Films,BOX,21.67,407.46,,,ACTIVE,2025-05-07
+SKU-000107,Automotive Part 107,Automotive,Electrical,PALLET,26.86,102.6,SKU-000004,True,ACTIVE,2025-08-20
+SKU-000108,Electronics Part 108,Electronics,Sensors,KG,37.29,494.14,,,ACTIVE,2025-11-10
+SKU-000109,Food & Beverage Part 109,Food & Beverage,Grains,PALLET,15.69,277.28,,,ACTIVE,2025-10-27
+SKU-000110,Components Part 110,Components,Seals,PALLET,36.64,98.02,SKU-000136,True,ACTIVE,2025-02-22
+SKU-000111,Components Part 111,Components,Fasteners,EA,46.66,224.38,,,ACTIVE,2025-06-12
+SKU-000112,Food & Beverage Part 112,Food & Beverage,Additives,PALLET,30.75,432.71,,,ACTIVE,2025-09-18
+SKU-000113,Textiles Part 113,Textiles,Woven,LT,37.44,477.85,,,ACTIVE,2025-06-04
+SKU-000114,Textiles Part 114,Textiles,Nonwoven,KG,22.98,5.24,,,ACTIVE,2025-05-11
+SKU-000115,Electronics Part 115,Electronics,Boards,EA,35.01,343.45,,,ACTIVE,2025-08-09
+SKU-000116,Packaging Part 116,Packaging,Labels,PALLET,6.61,219.89,SKU-000052,True,ACTIVE,2025-10-29
+SKU-000117,Components Part 117,Components,Fasteners,EA,29.67,309.35,SKU-000088,True,DISCONTINUED,2025-04-24
+SKU-000118,Pharmaceuticals Part 118,Pharmaceuticals,Raw API,LT,49.67,496.55,,,ACTIVE,2025-12-23
+SKU-000119,Components Part 119,Components,Springs,KG,29.62,240.72,,,ACTIVE,2025-07-20
+SKU-000120,Automotive Part 120,Automotive,Electrical,LT,1.23,462.86,,,ACTIVE,2025-06-08
+SKU-000121,Electronics Part 121,Electronics,Displays,KG,11.56,158.21,,,DISCONTINUED,2025-01-22
+SKU-000122,Industrial Part 122,Industrial,Motors,LT,32.75,138.2,,,ACTIVE,2025-02-26
+SKU-000123,Consumer Goods Part 123,Consumer Goods,Appliances,BOX,38.61,177.57,,,ACTIVE,2025-12-06
+SKU-000124,Textiles Part 124,Textiles,Woven,EA,2.78,468.25,,,ON_HOLD,2025-02-20
+SKU-000125,Electronics Part 125,Electronics,Boards,PALLET,13.09,341.7,,,ACTIVE,2025-11-12
+SKU-000126,Packaging Part 126,Packaging,Bottles,BOX,0.19,26.24,SKU-000002,True,ACTIVE,2025-05-21
+SKU-000127,Electronics Part 127,Electronics,Sensors,PALLET,19.21,470.45,,,ACTIVE,2025-08-18
+SKU-000128,Automotive Part 128,Automotive,Electrical,BOX,48.45,383.35,,,ACTIVE,2025-10-07
+SKU-000129,Automotive Part 129,Automotive,Chassis,BOX,46.81,36.07,,,ACTIVE,2025-03-30
+SKU-000130,Packaging Part 130,Packaging,Labels,EA,42.5,65.04,,,ACTIVE,2025-08-21
+SKU-000131,Textiles Part 131,Textiles,Woven,KG,39.97,274.97,,,ACTIVE,2025-03-09
+SKU-000132,Food & Beverage Part 132,Food & Beverage,Dairy,PALLET,36.73,68.42,,,ACTIVE,2025-08-01
+SKU-000133,Textiles Part 133,Textiles,Woven,PALLET,23.95,106.37,SKU-000073,True,ACTIVE,2025-09-24
+SKU-000134,Automotive Part 134,Automotive,Chassis,EA,31.47,458.54,,,ACTIVE,2025-03-28
+SKU-000135,Food & Beverage Part 135,Food & Beverage,Grains,PALLET,41.67,437.49,SKU-000120,True,ACTIVE,2025-08-03
+SKU-000136,Consumer Goods Part 136,Consumer Goods,Household,PALLET,9.83,196.11,SKU-000087,True,ACTIVE,2025-09-24
+SKU-000137,Chemicals Part 137,Chemicals,Polymers,LT,46.48,97.82,SKU-000085,True,ACTIVE,2025-06-16
+SKU-000138,Pharmaceuticals Part 138,Pharmaceuticals,Prescription,BOX,10.16,262.13,,,ACTIVE,2025-07-21
+SKU-000139,Electronics Part 139,Electronics,Sensors,KG,36.56,295.48,,,ACTIVE,2025-10-06
+SKU-000140,Industrial Part 140,Industrial,Bearings,KG,18.47,325.1,,,DISCONTINUED,2025-04-28
+SKU-000141,Industrial Part 141,Industrial,Bearings,EA,17.91,314.02,SKU-000015,True,ACTIVE,2025-08-11
+SKU-000142,Consumer Goods Part 142,Consumer Goods,Appliances,KG,39.36,261.85,,,ACTIVE,2025-12-12
+SKU-000143,Pharmaceuticals Part 143,Pharmaceuticals,Prescription,BOX,47.04,330.25,SKU-000054,True,ACTIVE,2025-04-13
+SKU-000144,Automotive Part 144,Automotive,Electrical,EA,6.63,55.69,,,ACTIVE,2025-01-13
+SKU-000145,Electronics Part 145,Electronics,Connectors,BOX,32.87,496.28,SKU-000051,True,ACTIVE,2025-08-26
+SKU-000146,Industrial Part 146,Industrial,Valves,LT,30.8,390.17,,,ACTIVE,2025-07-09
+SKU-000147,Consumer Goods Part 147,Consumer Goods,Appliances,LT,3.37,420.81,,,ACTIVE,2025-12-03
+SKU-000148,Food & Beverage Part 148,Food & Beverage,Dairy,LT,41.47,327.35,,,ACTIVE,2025-12-14
+SKU-000149,Automotive Part 149,Automotive,Electrical,BOX,12.5,349.56,,,ACTIVE,2025-03-10
+SKU-000150,Pharmaceuticals Part 150,Pharmaceuticals,Raw API,PALLET,17.11,116.19,SKU-000088,True,ACTIVE,2025-04-06

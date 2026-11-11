@@ -1,0 +1,25 @@
+{
+  "macro_metrics": {
+    "total_forecast_demand_units": 9655319,
+    "total_shortage_events": 681,
+    "total_shortage_units_at_risk": 7556078,
+    "total_financial_exposure_usd": 98892468039.11,
+    "service_level_risk_pct": 78.26,
+    "average_plant_utilization_pct": 0.75
+  },
+  "severity_distribution": {
+    "CRITICAL": 607,
+    "HIGH": 34,
+    "MEDIUM": 29,
+    "LOW": 11
+  },
+  "root_cause_distribution": {
+    "DEMAND_SPIKE": 534,
+    "LOW_INITIAL_INVENTORY": 89,
+    "SUPPLY_DELAY": 33,
+    "PRODUCTION_SHORTFALL": 18,
+    "CAPACITY_CONSTRAINT": 7
+  },
+  "active_sku_count": 132,
+  "total_sku_count": 150
+}

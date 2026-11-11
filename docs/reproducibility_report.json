@@ -1,0 +1,72 @@
+{
+  "seed": 20261022,
+  "all_match": true,
+  "entities": [
+    {
+      "entity": "forecast_demand",
+      "match": true,
+      "rows": 613392,
+      "md5": "ff022038db543475871e98b1fd9e3347"
+    },
+    {
+      "entity": "ground_truth",
+      "match": true,
+      "rows": 172,
+      "md5": "457864621f23bb1e20fcc228c8e5c353"
+    },
+    {
+      "entity": "inventory",
+      "match": true,
+      "rows": 11796,
+      "md5": "f144e51a9f9091b032382bccd96197f3"
+    },
+    {
+      "entity": "lead_times",
+      "match": true,
+      "rows": 4138,
+      "md5": "902489e0da95e8050527df3fc9dd6823"
+    },
+    {
+      "entity": "locations",
+      "match": true,
+      "rows": 50,
+      "md5": "1c7b70213f12d8976c5fb584f4108067"
+    },
+    {
+      "entity": "production_plans",
+      "match": true,
+      "rows": 2201,
+      "md5": "a3125bcb2d5b75fdd5252a6522f8688c"
+    },
+    {
+      "entity": "purchase_orders",
+      "match": true,
+      "rows": 10050,
+      "md5": "e77b0ae6a1e091bff92e748e7c1e3b35"
+    },
+    {
+      "entity": "sku_location_mapping",
+      "match": true,
+      "rows": 11796,
+      "md5": "f3ce8ff89f452648dce9010c6948932e"
+    },
+    {
+      "entity": "skus",
+      "match": true,
+      "rows": 3000,
+      "md5": "f65bf7b78ada54c32255055bf975427e"
+    },
+    {
+      "entity": "supplier_capacities",
+      "match": true,
+      "rows": 3753,
+      "md5": "4329499a422db20da0fa065dbc083551"
+    },
+    {
+      "entity": "suppliers",
+      "match": true,
+      "rows": 500,
+      "md5": "fb2aacebfdc7b126fdd90e4ea97d27d4"
+    }
+  ]
+}

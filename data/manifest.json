@@ -1,0 +1,214 @@
+{
+  "generated_at": "2026-11-11T23:04:13.735148",
+  "random_seed": 20261022,
+  "scale_factor": 0.05,
+  "total_files": 10,
+  "files": {
+    "skus.csv": {
+      "category": "master",
+      "relative_path": "data/master/skus.csv",
+      "rows": 150,
+      "columns": 11,
+      "column_names": [
+        "sku_id",
+        "name",
+        "category",
+        "subcategory",
+        "uom",
+        "weight_kg",
+        "unit_cost",
+        "substitute_sku_id",
+        "substitute_approved",
+        "status",
+        "created_at"
+      ],
+      "md5": "16c0fe8997b0be49582d48e0e6f79c3b",
+      "sha256": "66bc895d2c5a9ea4276b4a4f70cf260ec3ba901c0bbcef36e358014d2dae3237",
+      "size_bytes": 14080
+    },
+    "locations.csv": {
+      "category": "master",
+      "relative_path": "data/master/locations.csv",
+      "rows": 10,
+      "columns": 9,
+      "column_names": [
+        "location_id",
+        "name",
+        "type",
+        "region",
+        "country",
+        "capacity_units",
+        "status",
+        "latitude",
+        "longitude"
+      ],
+      "md5": "37b3eaa5d27e0cc7cb5c1e2816b1348f",
+      "sha256": "066ff7d6846133c41ec0500074cdd0a097e7c9fda6daeb6b2da1d256bc1e56d5",
+      "size_bytes": 888
+    },
+    "suppliers.csv": {
+      "category": "master",
+      "relative_path": "data/master/suppliers.csv",
+      "rows": 25,
+      "columns": 8,
+      "column_names": [
+        "supplier_id",
+        "name",
+        "country",
+        "reliability_score",
+        "payment_terms",
+        "status",
+        "certified",
+        "specialization"
+      ],
+      "md5": "5c6aebc4d52076a132c301b3450e101e",
+      "sha256": "c22bebfcc949f14cc92293c284d922b5e7a75834b9e35a57a50b8906f5f16006",
+      "size_bytes": 1703
+    },
+    "supplier_capacities.csv": {
+      "category": "transactions",
+      "relative_path": "data/transactions/supplier_capacities.csv",
+      "rows": 195,
+      "columns": 9,
+      "column_names": [
+        "supplier_capacity_id",
+        "supplier_id",
+        "sku_id",
+        "max_weekly_capacity",
+        "min_order_qty",
+        "uom",
+        "effective_from",
+        "effective_to",
+        "status"
+      ],
+      "md5": "038dd8e348015b6785e90481a5379937",
+      "sha256": "50676a18d877f1334ba1fa1addc92650825f9df7009ba1caad029c0731c5c006",
+      "size_bytes": 14377
+    },
+    "lead_times.csv": {
+      "category": "transactions",
+      "relative_path": "data/transactions/lead_times.csv",
+      "rows": 173,
+      "columns": 7,
+      "column_names": [
+        "lead_time_id",
+        "supplier_id",
+        "location_id",
+        "transit_days",
+        "transport_mode",
+        "effective_from",
+        "effective_to"
+      ],
+      "md5": "324ecf91ab1c83dd9272ecb28ad0ec07",
+      "sha256": "310b28443dcfbeecd724f3cf609dd1d48dc1856154c97127dc060a3c91ce8c55",
+      "size_bytes": 10150
+    },
+    "forecast_demand.csv": {
+      "category": "transactions",
+      "relative_path": "data/transactions/forecast_demand.csv",
+      "rows": 31304,
+      "columns": 11,
+      "column_names": [
+        "demand_id",
+        "sku_id",
+        "location_id",
+        "week",
+        "year",
+        "week_label",
+        "quantity",
+        "uom",
+        "confidence",
+        "demand_type",
+        "created_at"
+      ],
+      "md5": "5ec300eaa2e8ccc6c3b8953a465a2ab1",
+      "sha256": "fd9fbfb8050cba5912612db4cde7985d43e597c1deb7a393edb73513b239a3e6",
+      "size_bytes": 3057609
+    },
+    "inventory.csv": {
+      "category": "transactions",
+      "relative_path": "data/transactions/inventory.csv",
+      "rows": 602,
+      "columns": 9,
+      "column_names": [
+        "inventory_id",
+        "sku_id",
+        "location_id",
+        "on_hand_qty",
+        "safety_stock_qty",
+        "reorder_point",
+        "uom",
+        "last_updated",
+        "status"
+      ],
+      "md5": "2b17a58c0e794f46cc7ed401805be032",
+      "sha256": "dffc9d0111f3f7ffb953093e36087f31aa31251bacf79211e65515e1e568baf4",
+      "size_bytes": 40978
+    },
+    "purchase_orders.csv": {
+      "category": "transactions",
+      "relative_path": "data/transactions/purchase_orders.csv",
+      "rows": 502,
+      "columns": 13,
+      "column_names": [
+        "po_id",
+        "supplier_id",
+        "sku_id",
+        "location_id",
+        "quantity",
+        "uom",
+        "order_date",
+        "expected_delivery_date",
+        "actual_delivery_date",
+        "status",
+        "unit_cost",
+        "total_cost",
+        "week"
+      ],
+      "md5": "1ceda7a4f06cfc1a2aeaceab0cc30a8a",
+      "sha256": "1ebbbf9912d18beafca8cc26ec0b48fdc6c76414a3d47d32a46192245fb6918d",
+      "size_bytes": 54270
+    },
+    "production_plans.csv": {
+      "category": "transactions",
+      "relative_path": "data/transactions/production_plans.csv",
+      "rows": 1968,
+      "columns": 11,
+      "column_names": [
+        "production_plan_id",
+        "sku_id",
+        "location_id",
+        "week",
+        "year",
+        "planned_quantity",
+        "actual_quantity",
+        "bom_sku_id",
+        "bom_qty_per_unit",
+        "capacity_utilized_pct",
+        "status"
+      ],
+      "md5": "9d86b8ca7eee170926fe0b71ed565c16",
+      "sha256": "d66ade3d670a8128631c2d2842ac91cd2b3645a9fdc8df07e6cbcdbdacb71fed",
+      "size_bytes": 150035
+    },
+    "ground_truth.csv": {
+      "category": "ground_truth",
+      "relative_path": "data/ground_truth/ground_truth.csv",
+      "rows": 8,
+      "columns": 8,
+      "column_names": [
+        "record_id",
+        "entity",
+        "issue_type",
+        "description",
+        "affected_field",
+        "original_value",
+        "injected_value",
+        "severity"
+      ],
+      "md5": "b4d66fa0e3e20d9b45b021442b43b420",
+      "sha256": "04076c8fc34180d2165d286e665c27658963750169d143f0e8352cd1782907ff",
+      "size_bytes": 1315
+    }
+  }
+}

@@ -1,0 +1,9 @@
+record_id,entity,issue_type,description,affected_field,original_value,injected_value,severity
+PO-2026-000106,purchase_orders,inbound_counted_twice,PO PO-2026-000106 duplicated — risk of double-counting inbound qty 2996,po_id,PO-2026-000106,PO-2026-000106,HIGH
+PO-2026-000220,purchase_orders,inbound_counted_twice,PO PO-2026-000220 duplicated — risk of double-counting inbound qty 3887,po_id,PO-2026-000220,PO-2026-000220,HIGH
+SKU-000006,skus,substitute_not_approved,SKU SKU-000006 substitute SKU-000043 marked not approved,substitute_approved,True,False,MEDIUM
+PO-2026-000322,purchase_orders,supplier_capacity_exceeded,PO PO-2026-000322 qty 5877 exceeds supplier max capacity 2464,quantity,2189,5877,HIGH
+PO-2026-000173,purchase_orders,supplier_capacity_exceeded,PO PO-2026-000173 qty 11932 exceeds supplier max capacity 4170,quantity,754,11932,HIGH
+PO-2026-000262,purchase_orders,supplier_capacity_exceeded,PO PO-2026-000262 qty 4993 exceeds supplier max capacity 3041,quantity,2309,4993,HIGH
+LT-000114,lead_times,shortage_without_lead_time,Lead-time record LT-000114 removed — supplier SUP-000016 → location LOC-003 has no transit data,lead_time_id,LT-000114,REMOVED,CRITICAL
+SC-000189,supplier_capacities,uom_mismatch,Supplier capacity SC-000189 UOM PALLET ≠ SKU SKU-000070 UOM LT,uom,LT,PALLET,MEDIUM
